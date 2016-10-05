@@ -1,0 +1,125 @@
+Where Am I? What's Here?
+pwd
+ls
+ls -l
+Change Directory
+pwd
+ls -l
+cd Videos/
+pwd
+cd ..
+pwd
+cd My\ Documents/
+pwd
+cd ../../..
+ls -l
+cd ~
+cd ../..
+cd
+cd /c/Windows/
+pwd
+cd
+Where is that command?
+which ls
+which man
+Echo...Echo
+echo "Hello World"
+echo $PATH
+echo "The current path is $PATH"
+Reviewing Files Contents
+cat test.txt
+less test.txt
+Create, Rename, and Delete Files
+pwd
+ls
+touch demo.txt
+ls
+mv demo.txt demo_1.txt
+ls
+rm demo_1.txt
+ls
+ls -l
+touch test.txt
+ls -l
+Create and Delete Folders
+pwd
+mkdir projects
+cd projects/
+pwd
+cd ..
+rmdir projects
+cd projects
+ls
+mkdir -p projects/client/project
+cd projects/client/project
+cd
+rmdir projects
+rm -rf projects/
+ls
+Clear and Exit
+ls -l
+clear
+exit
+Output to a File
+pwd
+echo "hello" >> demo.txt
+ls
+cat demo.txt
+echo "hello again" >> demo.txt
+cat demo.txt
+echo "Hi" > demo.txt
+cat demo.txt
+clear
+ls -al > list.txt
+cat list.txt
+Creating and Executing a Simple Bash Script
+pwd
+which bash
+notepad++ example.sh
+ls -al
+chmod +x example.sh
+./example.sh
+Customizing the Bash Environment
+notepad++ .bashrc
+source .bashrc
+ll
+npp
+# Close Git Bash
+ll
+npp
+
+
+Setup the Project Folder
+Command Listing
+pwd
+mkdir projects
+cd projects
+pwd
+Git Configuration
+Command Listing
+git version
+git config --global user.name "Pop Ion"
+git config --global user.email "pop@yahoo.com "
+git config --global --list
+Copy the Repository (clone)
+Command Listing
+# paste in your GitHub HTTPS clone URL
+git clone https://github.com/my_project
+ls
+cd github-demo
+ls
+git status
+The First Commit
+Command Listing
+echo "Test Git demo" >> start.txt
+ls
+cat start.txt
+git status
+git add start.txt
+git status
+git commit -m "Add start text file"
+git status
+Publishing Changes to GitHub (push)
+Command Listing
+git push origin master
+
